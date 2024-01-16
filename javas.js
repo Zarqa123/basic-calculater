@@ -1,3 +1,3 @@
 function calculator(){
-    let x 
+    const number1 = parseFloat(document.getElementsByName("input1").value);
 }
