@@ -3,10 +3,10 @@ function calculator(){
     const number2 = parseFloat(document.getElementsByName("input2")[0].value);
     const result = number1 + number2;
     const high5 = document.getElementsByName("h5")[0];
-    document.getElementsByName("h5")[0].innerText = result
+    
 if(!isNaN(result)){
-    h5tag.innerText = result;
+    high5.innerText = result;
 }else{
-    h5tag.innertext ="bitch put number its is calculater not your moms chat";
+    high5.innertext ="bitch put number its is calculater not your moms chat";
 }
 }
